@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+
+    background-image: url("assets/images/bg.jpg");
+    height: 70vh;
+    position: relative;
+    background-size: max(1000px, 100vw);
+    background-position: center center;
+    background-repeat: none;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+nav button {
+    height: 100%;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100%-62%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.separation {}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(239, 235, 235, 0.095);
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 3px 24px;
+    border-radius: 15px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+
+
+.main input {
+    font-size: 12px;
+    padding: 7px 101px 8px 14px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 900;
+    background-color: rgba(23, 23, 23, 0.5);
+    border: 1px solid rgba(252, 250, 250, 0.5);
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+
+}
+
+.faq {
+
+    background: black;
+    color: white;
+    padding: 34px;
+
+
+}
+
+.faqbox:hover {
+    background-color: rgb(204, 184, 184);
+
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    color: white;
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 34px;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+footer {
+    color: white;
+    padding: 14px;
+    max-width: 90vw;
+    margin: auto;
+}
+
+
+footer questions {
+    padding: 34px 0px;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+
+
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
